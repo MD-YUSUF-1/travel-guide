@@ -2,6 +2,12 @@
 
 
 /* shared styles */
+/* font-family: 'Inter', sans-serif; */
+header,
+main {
+    font-family: 'Mulish', sans-serif;
+}
+
 #primary-color {
     color: #FF5400;
 }
@@ -10,11 +16,16 @@
     background-color: #FF5400;
 }
 
-/* font-family: 'Inter', sans-serif; */
-header,
-body {
-    font-family: 'Mulish', sans-serif;
+button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
 }
+
+
 
 /* Nav bar styles */
 .heading-container {
@@ -103,7 +114,7 @@ nav {
 }
 
 .banner-selection {
-    margin: 48px 185px 0px;
+    margin: 48px 208px 0px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     display: inline-flex;
@@ -123,19 +134,9 @@ nav {
     padding: 16px 84px 16px 16px;
 }
 
-.find-now-button {
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-    border: none;
-    padding: 16px 34px 16px 50px;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-}
 
-#select-when, #select-type {
+#select-when,
+#select-type {
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -143,5 +144,63 @@ nav {
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 400;
-    padding: 16px 113px 16px 15px;
+    padding: 16px 0px 16px 15px;
+}
+
+.find-now-button {
+    padding: 16px 34px 16px 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Popular trip section starts */
+.popular-trips {
+    max-width: 82.25%;
+    max-height: 550px;
+    margin: 100px auto 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.popular-trips-contents {
+    width: 100%;
+    display: block;
+}
+
+.popular-trips-contents h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.popular-trips-contents p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.popular-trips-contents p {
+    width: 550px;
+    margin: 24px 0px;
+}
+
+.popular-trips-contents li {
+    max-width: 525px;
+    margin-bottom: 16px;
+}
+
+.read-more-button {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.popular-trip-img {
+    width: 100%;
+}
+
+.popular-trip-img img {
+    width: 100%;
+    height: 100%;
 }
