@@ -1,0 +1,41 @@
+@media screen and (max-width:600px) {
+    .heading-container {
+        margin-left: 20px;
+    }
+    .menu-container {
+        margin-right: 20px;
+    }
+    .banner {
+        width: 92%;
+        background-size: auto 100%;
+        margin: 17px 20px 0px;
+    }
+
+    .banner-title {
+        font-size: 30px;
+        padding-top: 32px;
+        margin-bottom: 0px;
+    }
+
+    .banner-description {
+        width: 480px;
+        margin: 8px auto 0px;
+    }
+
+    .banner-selection {
+        flex-direction: column;
+        width: 440px;
+        align-items: center;
+        margin: 32px 30px;
+    }
+
+    .banner-selection 
+    #input-tag,
+    #select-when,
+    #select-type,
+    .find-now-button {
+        width: 420px;
+        height: 52px;
+    }
+
+}
