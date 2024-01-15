@@ -2,10 +2,13 @@
 
 
 /* shared styles */
-/* font-family: 'Inter', sans-serif; */
 header,
 main {
     font-family: 'Mulish', sans-serif;
+}
+
+footer .copyright {
+    font-family: 'Inter', sans-serif;
 }
 
 #primary-color {
@@ -75,7 +78,8 @@ button {
 .menu-container .a-contact {
     margin-right: 0px;
 }
-.menu-icon{
+
+.menu-icon {
     display: none;
 }
 
@@ -107,7 +111,7 @@ nav {
 }
 
 .banner-description {
-    width: 676px;
+    max-width: 676px;
     color: #FFF;
     font-family: Mulish;
     font-size: 16px;
@@ -120,9 +124,10 @@ nav {
     margin: 48px 208px 0px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    display: inline-flex;
+    display: flex;
     padding: 16px;
     gap: 24px;
+    max-width: 770px;
 }
 
 .banner-selection #input-tag {
@@ -164,6 +169,7 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 .popular-tours-contents {
     width: 100%;
     display: block;
@@ -184,7 +190,7 @@ li {
 }
 
 .popular-tours-contents p {
-    width: 550px;
+    max-width: 550px;
     margin: 24px 0px;
 }
 
@@ -206,4 +212,164 @@ li {
 .popular-tours-img img {
     width: 100%;
     height: 100%;
+}
+
+/* Newsletter section starts */
+.newsletter {
+    max-width: 82.25%;
+    max-height: 422px;
+    margin: 100px auto 0px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.newsletter-content {
+    max-width: 38%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-content h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 40px auto 0px 40px;
+}
+
+.newsletter-content p {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px auto 0px 40px;
+}
+
+.newsletter-content form {
+    margin: 48px 41px 0px 40px;
+}
+
+.newsletter-content form input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 393px;
+    padding: 16px 170px 16px 20px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.newsletter-content button {
+    margin: 24px 41px 0px 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    width: 393px;
+    padding: 14px 148px;
+}
+
+.newsletter-img {
+    width: 100%;
+    position: relative;
+}
+
+.newsletter-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.discount-70 h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.discount-70 h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 4px;
+}
+
+.discount-70 {
+    border-radius: 16px;
+    position: absolute;
+    top: 250px;
+    left: 405px;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.62deg);
+    flex-shrink: 0;
+}
+
+
+/* Footer starts */
+footer {
+    max-width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 100px 0px 0px;
+}
+
+.footer-heading {
+    padding-top: 110px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-heading h3 {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-heading img {
+    width: 40px;
+    height: 46px;
+}
+
+.footer-description {
+    max-width: 775px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px auto 0px;
+}
+
+.social-links {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+hr {
+    background: #1313181a;
+    max-width: 880px;
+    height: 1px;
+    border: none;
+    margin-top: 50px;
+}
+
+.copy-right {
+    text-align: center;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 50px auto 0px;
 }
