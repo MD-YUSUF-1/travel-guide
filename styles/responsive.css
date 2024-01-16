@@ -151,11 +151,12 @@
     }
     .newsletter-content form input {
         max-width: 76%;
-        padding: 16px 60% 16px 20px;
+        padding: 16px 61% 16px 20px;
     }
-    .newsletter-content .sub-button{
+    .subscribe-button{
         width: 100%;
         height: 52px;
+        padding: 10px auto 13px;
     }
     .newsletter-content p {
         width: 100%;
