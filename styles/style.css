@@ -382,7 +382,7 @@ li {
 .second-img {
     display: grid;
     grid-template-columns: 396.5px 502.5px 290.5px;
-    column-gap: 24px;
+    gap: 24px;
     margin-bottom: 24px;
 }
 
@@ -403,7 +403,7 @@ li {
     left: 40.33%;
 }
 .second-img  p{
-    left: 33%;
+    left: 34%;
 }
 .third-img  p{
     left: 35%;
