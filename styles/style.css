@@ -214,6 +214,180 @@ li {
     height: 100%;
 }
 
+
+/* destination section starts */
+
+.destination {
+    max-width: 82.25%;
+    margin: 100px auto 0px;
+}
+
+.destination-content h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.destination-content p {
+    max-width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px auto 48px;
+}
+
+.destination div {
+    width: 100%;
+}
+
+.destination div {
+    position: relative;
+}
+
+.first-img img,
+.third-img img {
+    width: 100%;
+    height: 300px;
+}
+
+.second-img img {
+    width: 100%;
+    height: 286px;
+}
+
+.first-img {
+    display: flex;
+    gap: 26px;
+    margin-bottom: 24px;
+}
+
+.second-img {
+    display: grid;
+    grid-template-columns: 396.5px 502.5px 290.5px;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.third-img {
+    display: grid;
+    grid-template-columns: 502.5px 714.5px;
+    gap: 24px;
+}
+
+.first-img p,
+.second-img p,
+.third-img p {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 44%;
+    left: 40.33%;
+}
+
+.second-img p {
+    left: 34%;
+}
+
+.third-img p {
+    left: 35%;
+}
+
+/* Why choose us section starts */
+.choose {
+    max-width: 82.25%;
+    margin: 100px auto 0px;
+}
+
+.choose-description h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.choose-description p {
+    width: 643px;
+    margin: 24px auto 0px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hotel-service {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.hotel div,
+.service div,
+.price div {
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.hotel {
+    width: 100%;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service {
+    width: 100%;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price {
+    width: 50%;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 24px auto 0px;
+}
+
+.hotel p,
+.service p,
+.price p {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hotel h3,
+.service h3,
+.price h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel img,
+.service img,
+.price img {
+    width: 64px;
+    height: 64px;
+}
+
+/* .hotel img
+.service img
+.price img */
+
+
 /* Newsletter section starts */
 .newsletter {
     max-width: 82.25%;
@@ -278,7 +452,7 @@ li {
     text-align: center;
     font-size: 20px;
     font-weight: 800;
-    width: 86%;
+    width: 393px;
     height: 52px;
     border-radius: 8px;
     border: none;
@@ -326,88 +500,6 @@ li {
     flex-shrink: 0;
 }
 
-/* destination section starts */
-
-/* .destination img{
-    margin-right: 24px;
-    margin-bottom: 24px; */
-/* } */
-.destination {
-    max-width: 82.25%;
-    margin: 100px auto 0px;
-}
-
-.destination-content h3 {
-    color: #131318;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 0px;
-}
-
-.destination-content p {
-    max-width: 643px;
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 24px auto 48px;
-}
-
-.destination div {
-    width: 100%;
-}
-
-.destination div {
-    position: relative;
-}
-
-.first-img img,
-.third-img img {
-    width: 100%;
-    height: 300px;
-}
-
-.second-img img {
-    width: 100%;
-    height: 286px;
-}
-
-.first-img {
-    display: flex;
-    gap: 26px;
-    margin-bottom: 24px;
-}
-
-.second-img {
-    display: grid;
-    grid-template-columns: 396.5px 502.5px 290.5px;
-    gap: 24px;
-    margin-bottom: 24px;
-}
-
-.third-img {
-    display: grid;
-    grid-template-columns: 502.5px 714.5px;
-    gap: 24px;
-}
-
-.first-img  p, .second-img  p, .third-img  p {
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    top: 44%;
-    left: 40.33%;
-}
-.second-img  p{
-    left: 34%;
-}
-.third-img  p{
-    left: 35%;
-}
 
 /* Footer starts */
 footer {
