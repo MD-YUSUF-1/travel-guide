@@ -97,6 +97,41 @@
         width: 100%;
     }
 
+    /* partner section starts */
+    .partner {
+        max-width: 92%;
+        margin: 24px auto 0px;
+    }
+    .popular-airplane{
+        flex-direction: column;
+    }
+    .popular-airplane-content, .travel-partner-content{
+        width: 92%;
+    }
+    .popular-airplane-content p {
+        margin-bottom: 0px;
+    }
+    .popular-airplane-content h3 {
+        margin-bottom: 20px;
+    }
+    .popular-airplane-picture{
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .travel-partner{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .travel-partner-content p {
+        margin-bottom: 0px;
+    }
+    .travel-partner-content h3 {
+        margin-bottom: 20px;
+    }
+    .travel-partner-picture{
+        justify-content: space-evenly;
+        width: 100%;
+    }
 
     /* Newsletter section */
     .newsletter {
