@@ -28,8 +28,6 @@ button {
     cursor: pointer;
 }
 
-
-
 /* Nav bar styles */
 .heading-container {
     display: flex;
@@ -383,7 +381,7 @@ li {
     height: 64px;
 }
 
-/* Partner section starts */
+/* Extra section- Partner section starts */
 .partner {
     max-width: 82.25%;
     margin: 100px auto 0px;
@@ -438,7 +436,6 @@ li {
     color: #5A5A5D;
     font-size: 20px;
     font-weight: 400;
-    /* max-width: 400px; */
 }
 
 .travel-partner-picture{
@@ -586,6 +583,8 @@ footer {
     color: #131318;
     font-size: 32px;
     font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .footer-heading img {
