@@ -69,6 +69,7 @@
         width: 100%;
         height: 100%;
     }
+
     /* destination section */
     .destination{
         margin-top: 24px;
@@ -83,6 +84,19 @@
     .first-img img, .second-img img, .third-img img{
         width: 100%;
     }
+
+    /* Why choose us section */
+    .choose {
+        max-width: 92%;
+        margin-top: 24px;
+    }
+    .hotel-service{
+        flex-direction: column;
+    }
+    .price {
+        width: 100%;
+    }
+
 
     /* Newsletter section */
     .newsletter {
