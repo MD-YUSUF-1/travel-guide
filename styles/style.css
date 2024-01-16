@@ -383,6 +383,75 @@ li {
     height: 64px;
 }
 
+/* Partner section starts */
+.partner {
+    max-width: 82.25%;
+    margin: 100px auto 0px;
+}
+.popular-airplane{
+    display: flex;
+    gap: 30px;
+}
+.popular-airplane-content{
+    width: 600px;
+}
+.popular-airplane-content h3 {
+    margin-top: 0px;
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.popular-airplane-content p {
+    color: #5A5A5D;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.popular-airplane-picture{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.popular-airplane-picture img{
+    width: 180px;
+    height: 70px;
+} 
+
+.travel-partner{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.travel-partner-content{
+    width: 600px;
+}
+.travel-partner-content h3 {
+    margin-top: 0px;
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.travel-partner-content p {
+    color: #5A5A5D;
+    font-size: 20px;
+    font-weight: 400;
+    /* max-width: 400px; */
+}
+
+.travel-partner-picture{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.travel-partner-picture img{
+    width: 180px;
+    height: 70px;
+} 
+
 
 /* Newsletter section starts */
 .newsletter {
